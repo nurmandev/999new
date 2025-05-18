@@ -17,7 +17,7 @@ const Registration = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/registration-and-login"
+          href="https://99wiwi.com/helper-center/registration-and-login"
           key="canonical"
         />
       </Head>

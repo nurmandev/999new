@@ -63,7 +63,7 @@ function TournamentPage() {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/tournament"
+          href="https://99wiwi.com/tournament"
           key="canonical"
         />
       </Head>
@@ -409,9 +409,9 @@ function TournamentPage() {
           </div>
           <Link
             className="mt-6 text-[16px] md:text-[18px] text-color-text-mailto text-center font-semibold"
-            href={`mailto:support@bonenza.com`}
+            href={`mailto:support@99wiwi.com`}
           >
-            Bonenza Team
+            99wiwi Team
           </Link>
         </div>
       </CommonModal>

@@ -78,7 +78,7 @@ function VipPage() {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/vip"
+          href="https://99wiwi.com/vip"
           key="canonical"
         />
       </Head>

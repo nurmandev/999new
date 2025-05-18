@@ -13,7 +13,7 @@ const TermsOfServicePage = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/terms-of-service"
+          href="https://99wiwi.com/helper-center/terms-of-service"
           key="canonical"
         />
       </Head>

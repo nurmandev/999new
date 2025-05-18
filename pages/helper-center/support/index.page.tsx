@@ -14,7 +14,7 @@ const Support = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/support"
+          href="https://99wiwi.com/helper-center/support"
           key="canonical"
         />
       </Head>

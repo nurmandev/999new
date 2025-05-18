@@ -99,7 +99,7 @@ function ProviderPage({ games, params }: InferGetStaticPropsType<typeof getStati
             <Head>
                 <link
                     rel="canonical"
-                    href={`https://bonenza.com/provider/${id}`}
+                    href={`https://99wiwi.com/provider/${id}`}
                     key="canonical"
                 />
             </Head>

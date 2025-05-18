@@ -364,7 +364,7 @@ function IndexPage() {
     <>
       <MetaHead />
       <Head>
-        <link rel="canonical" href="https://bonenza.com" key="canonical" />
+        <link rel="canonical" href="https://99wiwi.com" key="canonical" />
       </Head>
       <div className="w-full">
         <div className="w-full flex items-start xl:flex-row flex-col pb-[25px]">
@@ -705,8 +705,8 @@ function IndexPage() {
                       <span className="text-default text-color-text-secondary mr-[10px]">
                         {String(t('homePage:orEmail'))}
                       </span>
-                      <a href="mailto:feedback@bonenza.com" className="cursor-pointer text-default text-color-primary">
-                        feedback@bonenza.com
+                      <a href="mailto:feedback@99wiwi.com" className="cursor-pointer text-default text-color-primary">
+                        feedback@99wiwi.com
                       </a>
                     </div>
                   </div>

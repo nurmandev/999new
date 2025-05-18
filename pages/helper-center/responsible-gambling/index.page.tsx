@@ -112,7 +112,7 @@ const Faq = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/responsible-gambling"
+          href="https://99wiwi.com/helper-center/responsible-gambling"
           key="canonical"
         />
       </Head>

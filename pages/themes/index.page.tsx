@@ -41,7 +41,7 @@ function ThemePage() {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/themes"
+          href="https://99wiwi.com/themes"
           key="canonical"
         />
       </Head>

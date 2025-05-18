@@ -48,7 +48,7 @@ function ProvidersPage() {
     <>
       <MetaHead />
       <Head>
-        <link rel="canonical" href="https://bonenza.com/providers" key="canonical" />
+        <link rel="canonical" href="https://99wiwi.com/providers" key="canonical" />
       </Head>
       <div className="py-[24px]">
         {isLoading && <Loader />}

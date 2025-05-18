@@ -115,27 +115,27 @@ function MyApp({ Component, ...rest }: AppPropsWithLayout) {
               <meta name="google-site-verification" content="8Pg6SQ4ANq-BBmT7jN0wRovBqUpW0JNxU5kuiVO4aLc" />
 
               <meta name="language" content="English" />
-              <meta name="url" content="https://www.bonenza.com" />
+              <meta name="url" content="https://www.99wiwi.com" />
 
-              <meta property="twitter:image" content="https://bonenza.com/img/logo-mobile.png" />
+              <meta property="twitter:image" content="https://99wiwi.com/img/logo-mobile.png" />
               <meta name="theme-color" content="#01042C" />
               <meta name="apple-mobile-web-app-capable" content="yes" />
               <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-              <meta property="og:image" content="https://bonenza.com/img/logo-mobile.png" />
-              <meta property="og:url" content="https://bonenza.com/casino" />
+              <meta property="og:image" content="https://99wiwi.com/img/logo-mobile.png" />
+              <meta property="og:url" content="https://99wiwi.com/casino" />
               <meta property="og:type" content="website" />
               <meta
                 name="keywords"
-                content="Bonenza, crypto online casino, Bitcoin casino, Ethereum gambling, play online casino with crypto, baccarat tournament, crypto tournaments"
+                content="99wiwi, crypto online casino, Bitcoin casino, Ethereum gambling, play online casino with crypto, baccarat tournament, crypto tournaments"
               />
               <noscript>Your browser does not support JavaScript!</noscript>
               <script type="application/ld+json" dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                   "@context": "https://schema.org",
                   "@type": "Organization",
-                  "name": "Bonenza",
-                  "url": "https://bonenza.com/",
-                  "logo": "https://bonenza.com/img/logo-mobile.png"
+                  "name": "99wiwi",
+                  "url": "https://99wiwi.com/",
+                  "logo": "https://99wiwi.com/img/logo-mobile.png"
                 })
               }} />
 

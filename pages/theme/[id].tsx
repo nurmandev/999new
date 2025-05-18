@@ -89,7 +89,7 @@ function CasinoCategoryPage({ providers, params }: InferGetStaticPropsType<typeo
       <Head>
         <link
           rel="canonical"
-          href={`https://bonenza.com/theme/${id}`}
+          href={`https://99wiwi.com/theme/${id}`}
           key="canonical"
         />
       </Head>
