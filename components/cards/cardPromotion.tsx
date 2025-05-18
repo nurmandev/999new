@@ -21,7 +21,7 @@ export default function CardPromotion({ price, title, promotionName }: CardPromo
       </div>
       <div className="mt-[15px] flex justify-between">
         <div className="">
-          <div className="text-[12px] text-[#939699]">{t('promotion:endAt')} 8/28/2023, 10:59:01</div>
+          <div className="text-[12px] text-[#939699]">{t('promotion:endAt')} 8/28/2025, 10:59:01</div>
           <div className="text-[12px] text-white font-bold">{promotionName}</div>
         </div>
         <div className="bg-color-primary/20 text-color-primary rounded-default py-[13px] font-bold text-[14px] text-center h-[44px] w-[140px]">
