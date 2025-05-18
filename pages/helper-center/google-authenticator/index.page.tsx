@@ -20,7 +20,7 @@ const GoogleAuthenticator = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/google-authenticator"
+          href="https://99wiwi.com/helper-center/google-authenticator"
           key="canonical"
         />
       </Head>

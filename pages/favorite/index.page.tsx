@@ -30,7 +30,7 @@ function FavoritePage() {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/favorite"
+          href="https://99wiwi.com/favorite"
           key="canonical"
         />
       </Head>

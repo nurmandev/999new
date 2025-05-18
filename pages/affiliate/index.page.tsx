@@ -115,7 +115,7 @@ function AffiliatePage() {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/affiliate"
+          href="https://99wiwi.com/affiliate"
           key="canonical"
         />
       </Head>
@@ -330,9 +330,9 @@ function AffiliatePage() {
               </div>
               <Link
                 className="flex justify-between max-w-[309px] h-[50px] rounded-[5px] dark:bg-color-panel-bg bg-[#F6F7FA] items-center p-[10px]"
-                href="mailto:business@bonenza.com"
+                href="mailto:business@99wiwi.com"
               >
-                <div className="text-[14px] text-gray-500">business@bonenza.com</div>
+                <div className="text-[14px] text-gray-500">business@99wiwi.com</div>
                 <div className="flex items-center gap-[10px]">
                   <div className="text-[14px] text-color-primary">{t('affiliate:sendNow')}</div>
                   <div>

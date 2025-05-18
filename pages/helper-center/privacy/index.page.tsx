@@ -48,7 +48,7 @@ const HelperPrivacyPage = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/privacy"
+          href="https://99wiwi.com/helper-center/privacy"
           key="canonical"
         />
       </Head>
@@ -358,17 +358,17 @@ const HelperPrivacyPage = () => {
                     </div>
                     <div className="mb-[9px]">
                       <div className="text-black dark:text-[#ffff] text-[14px] dark:font-bold text-left mb-[10px]">
-                        Why do we use cookies on BONENZA?
+                        Why do we use cookies on 99wiwi?
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left">
-                        BONENZA uses two types of cookies: cookies set by us and cookies set by third parties (i.e.
-                        other websites or services). BONENZA cookies enable us to keep you signed in to your account
+                        99wiwi uses two types of cookies: cookies set by us and cookies set by third parties (i.e.
+                        other websites or services). 99wiwi cookies enable us to keep you signed in to your account
                         throughout your visit and to tailor the information displayed on the site to your preferences.
                       </div>
                     </div>
                     <div className="mb-[9px]">
                       <div className="text-black dark:text-[#ffff] text-[14px] dark:font-bold text-left mb-[10px]">
-                        What cookies do we use on BONENZA?
+                        What cookies do we use on 99wiwi?
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left mb-[11px]">
                         _fp - stores browser&apos;s fingerprint. Lifetime: forever.
@@ -385,7 +385,7 @@ const HelperPrivacyPage = () => {
                         _c - stores identifier of affiliate campaign. Needed for affiliate statistic. Lifetime: forever.
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left mb-[11px]">
-                        Cookies set by third parties for wildcard domain: *.BONENZA
+                        Cookies set by third parties for wildcard domain: *.99wiwi
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left mb-[11px]">
                         Google analytics: _ga, _gat, _gid
@@ -406,7 +406,7 @@ const HelperPrivacyPage = () => {
                     </div>
                     <div className="mb-[9px]">
                       <div className="text-black dark:text-[#ffff] text-[14px] dark:font-bold text-left mb-[10px]">
-                        How can I manage my cookies on BONENZA?
+                        How can I manage my cookies on 99wiwi?
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left">
                         If you wish to stop accepting cookies, you can do so through the Privacy Settings option in your
@@ -418,7 +418,7 @@ const HelperPrivacyPage = () => {
                         Personal Data Protection Policy
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left">
-                        BONENZA&apos;s mission is to keep your Data safe and for this matter we protect your data in
+                        99wiwi&apos;s mission is to keep your Data safe and for this matter we protect your data in
                         various ways. We provide our customers with high security standards, such as encryption of data
                         in motion over public networks, encryption of data in database, auditing standards, Distributed
                         Denial of Service mitigations, and a Live Chat available on-site.
@@ -462,7 +462,7 @@ const HelperPrivacyPage = () => {
                         Data Breach Notification
                       </div>
                       <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left">
-                        When BONENZA will be made aware of personal data breaches we will notify relevant users in
+                        When 99wiwi will be made aware of personal data breaches we will notify relevant users in
                         accordance with GDPR timeframes.
                       </div>
                     </div>
@@ -635,7 +635,7 @@ const HelperPrivacyPage = () => {
                 <Disclosure.Panel className={'flex flex-col gap-[10px] w-full text-[10px] pb-2'}>
                   <div className="">
                     <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left pb-[12px]">
-                      BONENZA allows You to create an account and log in to use the Service through the following
+                      99wiwi allows You to create an account and log in to use the Service through the following
                       Third-party Social Media Services:
                     </div>
                     <ul className="text-left list-disc ml-[15px]">
@@ -664,9 +664,9 @@ const HelperPrivacyPage = () => {
                       contact list associated with that account.
                     </div>
                     <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left pb-[12px]">
-                      You may also have the option of sharing additional information with the BONENZA through Your
+                      You may also have the option of sharing additional information with the 99wiwi through Your
                       Third-Party Social Media Service&apos;s account. If You choose to provide such information and
-                      Personal Data, during registration or otherwise, You are giving BONENZA permission to use, share,
+                      Personal Data, during registration or otherwise, You are giving 99wiwi permission to use, share,
                       and store it in a manner consistent with this Privacy Policy.
                     </div>
                   </div>
@@ -693,11 +693,11 @@ const HelperPrivacyPage = () => {
                 <Disclosure.Panel className={'flex flex-col gap-[10px] w-full text-[10px] pb-2'}>
                   <div className="">
                     <div className="text-[#31373d] dark:text-color-text-primary text-[14px] font-normal text-left pb-[9px]">
-                      You can request to have your personal data deleted if BONENZA no longer have a legal reason to
+                      You can request to have your personal data deleted if 99wiwi no longer have a legal reason to
                       continue to process or store it. Please note that this right is not guaranteed - in the sense that
-                      BONENZA do not have the ability to comply with your request if it is subject to a legal obligation
+                      99wiwi do not have the ability to comply with your request if it is subject to a legal obligation
                       to store your data. You can request the deletion of your personal data by sending an email to
-                      support@bonenza
+                      support@99wiwi
                     </div>
                   </div>
                 </Disclosure.Panel>

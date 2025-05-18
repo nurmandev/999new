@@ -212,14 +212,14 @@ function CasinoTagnamePage({ params, providers }: InferGetStaticPropsType<typeof
     return (
         <>
             <Head>
-                <title>{`${convertTag2Label(tag)} Online Crypto Casino Games - Bonenza`}</title>
-                <meta property="og:title" content={`${convertTag2Label(tag)} Online Crypto Casino Games - Bonenza`} />
+                <title>{`${convertTag2Label(tag)} Online Crypto Casino Games - 99wiwi`}</title>
+                <meta property="og:title" content={`${convertTag2Label(tag)} Online Crypto Casino Games - 99wiwi`} />
 
-                <meta name="description" content={`Experience thrilling ${convertTag2Meta(tag)} at Bonenza Casino. Join us today and Play ${convertTag2Meta(tag)} to enjoy the ultimate gaming adventure.`} />
-                <meta property="og:description" content={`Experience thrilling ${convertTag2Meta(tag)} at Bonenza Casino. Join us today and Play ${convertTag2Meta(tag)} to enjoy the ultimate gaming adventure.`} />
+                <meta name="description" content={`Experience thrilling ${convertTag2Meta(tag)} at 99wiwi Casino. Join us today and Play ${convertTag2Meta(tag)} to enjoy the ultimate gaming adventure.`} />
+                <meta property="og:description" content={`Experience thrilling ${convertTag2Meta(tag)} at 99wiwi Casino. Join us today and Play ${convertTag2Meta(tag)} to enjoy the ultimate gaming adventure.`} />
                 <link
                     rel="canonical"
-                    href={`https://bonenza.com/casino/${tag}`}
+                    href={`https://99wiwi.com/casino/${tag}`}
                     key="canonical"
                 />
             </Head>

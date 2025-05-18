@@ -121,7 +121,7 @@ const CoinAccuracyLimit = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/coin-accuracy-limit"
+          href="https://99wiwi.com/helper-center/coin-accuracy-limit"
           key="canonical"
         />
       </Head>

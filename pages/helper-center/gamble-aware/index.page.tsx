@@ -14,7 +14,7 @@ const AmlPage = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/gamble-aware"
+          href="https://99wiwi.com/helper-center/gamble-aware"
           key="canonical"
         />
       </Head>

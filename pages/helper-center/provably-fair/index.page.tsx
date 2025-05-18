@@ -47,7 +47,7 @@ const ProvablyFairPage = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/provably-fair"
+          href="https://99wiwi.com/helper-center/provably-fair"
           key="canonical"
         />
       </Head>

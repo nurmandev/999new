@@ -976,8 +976,8 @@ function GamePage({ params }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
       <Head>
-        <title>{`Play ${gameDetail.title} Online Casino Game - Bonenza`}</title>
-        <meta property="og:title" content={`Play ${gameDetail.title} Online Casino Game - Bonenza`} />
+        <title>{`Play ${gameDetail.title} Online Casino Game - 99wiwi`}</title>
+        <meta property="og:title" content={`Play ${gameDetail.title} Online Casino Game - 99wiwi`} />
 
         <meta
           name="description"
@@ -987,7 +987,7 @@ function GamePage({ params }: InferGetStaticPropsType<typeof getStaticProps>) {
           property="og:description"
           content={`Play this interesting ${gameDetail.title} online casino game and test your skills in strategic gameplay. Win big with thrilling bets`}
         />
-        <link rel="canonical" href={`https://bonenza.com/game/${params.id}`} key="canonical" />
+        <link rel="canonical" href={`https://99wiwi.com/game/${params.id}`} key="canonical" />
       </Head>
       {loadings.screenLoad && <Loader />}
       {gameDetail.id && (

@@ -13,7 +13,7 @@ const AmlPage = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/aml"
+          href="https://99wiwi.com/helper-center/aml"
           key="canonical"
         />
       </Head>

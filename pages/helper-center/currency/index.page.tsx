@@ -65,7 +65,7 @@ const Currency = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/currency"
+          href="https://99wiwi.com/helper-center/currency"
           key="canonical"
         />
       </Head>

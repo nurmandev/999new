@@ -63,7 +63,7 @@ const Faq = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/faq"
+          href="https://99wiwi.com/helper-center/faq"
           key="canonical"
         />
       </Head>

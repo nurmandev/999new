@@ -36,7 +36,7 @@ const DepositBonusTerms = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/deposit-bonus-terms"
+          href="https://99wiwi.com/helper-center/deposit-bonus-terms"
           key="canonical"
         />
       </Head>

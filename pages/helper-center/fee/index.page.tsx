@@ -12,7 +12,7 @@ const Fee = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/fee"
+          href="https://99wiwi.com/helper-center/fee"
           key="canonical"
         />
       </Head>

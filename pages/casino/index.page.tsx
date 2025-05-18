@@ -167,7 +167,7 @@ function CasinoPage() {
     <>
       <MetaHead />
       <Head>
-        <link rel="canonical" href="https://bonenza.com/casino" key="canonical" />
+        <link rel="canonical" href="https://99wiwi.com/casino" key="canonical" />
       </Head>
       <div className="py-[24px]">
         <h1 className="hidden">Casino</h1>

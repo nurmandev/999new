@@ -14,7 +14,7 @@ const ProtectingMinors = () => {
       <Head>
         <link
           rel="canonical"
-          href="https://bonenza.com/helper-center/protecting-minors"
+          href="https://99wiwi.com/helper-center/protecting-minors"
           key="canonical"
         />
       </Head>
