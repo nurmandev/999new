@@ -544,9 +544,9 @@ function DashboardComponent() {
             </div>
             <Link
               className="w-full flex justify-between lg:w-[350px] h-[41px] rounded-[5px] dark:bg-[#181818] bg-color-light-bg-primary items-center "
-              href="mailto:business@bonenza.com"
+              href="mailto:business@99wiwi.com"
             >
-              <div className="text-m_default sm:text-default text-gray-500 ml-[16px]">business@bonenza.com</div>
+              <div className="text-m_default sm:text-default text-gray-500 ml-[16px]">business@99wiwi.com</div>
               <div className="flex mr-[10px]">
                 <div className="text-m_default sm:text-default font-bold text-color-primary mr-[10px]">
                   {t('affiliate:sendNow')}
