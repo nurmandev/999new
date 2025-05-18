@@ -33,9 +33,9 @@ export default function ModalBusinessContacts({ show, onClose }: ModalBusinessCo
           <div
             className={`rounded-default overflow-hidden h-[52px] px-3 cursor-pointer dark:bg-color-card-bg-primary hover:bg-white bg-color-light-bg-primary flex justify-between items-center mt-3 relative`}
           >
-            <div className="dark:text-white text-black">business@bonenza.com</div>
+            <div className="dark:text-white text-black">business@99wiwi.com</div>
             <div className="flex items-center gap-2 text-color-primary">
-              <a href="mailto:business@bonenza">{t('footer:sendNow')}</a>
+              <a href="mailto:business@99wiwi">{t('footer:sendNow')}</a>
               <EnvelopeOpenIcon width={16} height={14} className="" />
             </div>
           </div>

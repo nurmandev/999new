@@ -80,7 +80,7 @@ export default function ModalSelfExclusion({ show, onClose }: ModalAuthenticatio
               <div className="text-[12px] sm:text-[16px] text-white font-semibold text-center leading-9 mt-5">
                 <span className="font-extralight">{t('exclusion:exclusionNotify2')} </span>
                 <span className="font-extralight">{t('exclusion:exclusionNotify3')} </span>
-                <span className="font-extralight text-color-light-notice-primary">help@bonenza.com</span>
+                <span className="font-extralight text-color-light-notice-primary">help@99wiwi.com</span>
               </div>
             </div>
             <div className="text-center rounded-default py-3 bg-gradient-btn-play shadow-bs-btn" role="button" onClick={onClose}>

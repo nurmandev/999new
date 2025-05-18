@@ -309,7 +309,7 @@ export default function Footer({ isDetailPage }: { isDetailPage?: boolean }) {
                   </Link>
                   <Link
                     className="flex items-center gap-3 text-default text-color-light-text-primary dark:text-color-text-primary hover:text-black dark:hover:text-white"
-                    href="https://x.com/Bonenzacom?s=09"
+                    href="https://x.com/99wiwicom?s=09"
                     target="_blank"
                   >
                     <Image
@@ -323,7 +323,7 @@ export default function Footer({ isDetailPage }: { isDetailPage?: boolean }) {
                   </Link>
                   <Link
                     className="flex items-center gap-3 text-default text-color-light-text-primary dark:text-color-text-primary hover:text-black dark:hover:text-white"
-                    href="https://t.me/Bonenzacom"
+                    href="https://t.me/99wiwicom"
                     target="_blank"
                   >
                     <Image
@@ -337,7 +337,7 @@ export default function Footer({ isDetailPage }: { isDetailPage?: boolean }) {
                   </Link>
                   <Link
                     className="flex items-center gap-3 text-default text-color-light-text-primary dark:text-color-text-primary hover:text-black dark:hover:text-white"
-                    href="https://t.me/Bonenzachannel"
+                    href="https://t.me/99wiwichannel"
                     target="_blank"
                   >
                     <Image
@@ -439,7 +439,7 @@ export default function Footer({ isDetailPage }: { isDetailPage?: boolean }) {
                 height={27}
                 className="w-[220px] h-[44px] cursor-pointer"
               />
-              <div className="text-default">{String(t('footer:bonenzaDescription1'))}</div>
+              <div className="text-default">{String(t('footer:99wiwiDescription1'))}</div>
               <div className="flex flex-col gap-[10px] text-default font-light">
                 <div className="flex gap-[5px]">
                   {String(t('footer:business'))}

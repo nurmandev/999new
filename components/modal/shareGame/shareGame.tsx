@@ -18,7 +18,7 @@ type ModalShareGameProps = {
 
 export default function ModalShareGame({ show, onClose, gameDetail }: ModalShareGameProps) {
   const linkGame = useMemo(() => {
-    return `https://bonenza.com/game/${convertToUrlCase(gameDetail.identifier || '')}`;
+    return `https://99wiwi.com/game/${convertToUrlCase(gameDetail.identifier || '')}`;
   }, [gameDetail]);
 
   const { t } = useTranslation('');

@@ -253,7 +253,7 @@ export default function ModalDetailBets({ show, onClose }: ModalDetailBetsProps)
                 </div>
                 <div
                   className="flex items-center gap-[5px] cursor-pointer"
-                  onClick={() => window.open('mailto:info@bonenza.com')}
+                  onClick={() => window.open('mailto:info@99wiwi.com')}
                 >
                   <Headphone className="w-[16px] h-[16px] text-color-primary" />
                   <div className="font-bold text-[11px] dark:text-color-primary text-[#31373d]">
