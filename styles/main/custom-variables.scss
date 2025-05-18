@@ -1,0 +1,124 @@
+@import '~/styles/base/mixins';
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #f6f6f7;
+$gray-300: #D2E0E6;
+$gray-400: #C3D2D8;
+$gray-500: #B0BEC4;
+$gray-600: #6c757d;
+$gray-700: #4b4b5a;
+$gray-800: #596164;
+$gray-900: #363B3D;
+$black: #000;
+
+$color-primary-0: #0e4e87;
+$color-primary-1: #005aaa;
+$color-primary-2: #3189d7;
+$color-primary-3: #5caaed;
+$color-primary-4: #c5e2fb;
+$color-primary-bg: #f5faff;
+
+$color-status-success: #28a745;
+$color-status-error: #dc3545;
+$color-status-warning: #f79009;
+
+$color-text-0: #333;
+$color-text-1: #707070;
+$color-text-2: #b2b2b2;
+$color-text-3: #e5e5e5;
+
+$color-white: #fff;
+$color-black: #000;
+$color-black-900: #262626;
+$color-a-link: #305b77;
+
+$color-input-active: #4285f4;
+
+$color-icon-close-modal: #262626;
+
+$color-row-error: #FEE4E280;
+$color-row-warning: #FEF0C7;
+
+// Font weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// z-index
+$z-index-calendar: 5;
+$z-index-select-box: 11;
+$z-index-preloader: 9999;
+$z-index-top-bar: 1000;
+$z-index-second-top-bar: 999;
+$z-index-form: 2;
+$z-index-loading: 100;
+$z-index-header-table: 9;
+$z-index-asidebar: 1;
+$z-index-maincontent: 10;
+$z-index-progress: 9999;
+
+
+$input-disabled-color: $color-text-2;
+$input-disabled-bg: $color-text-3;
+$input-disabled-border-color: $color-text-2;
+$input-btn-focus-box-shadow: none;
+
+$sis-colors: (
+);
+$sis-colors: map-merge(('primary-0': $color-primary-0,
+'primary-1': $color-primary-1,
+'primary-2': $color-primary-2,
+'primary-3': $color-primary-3,
+'primary-4': $color-primary-4,
+'primary-bg': $color-primary-bg,
+'status-success': $color-status-success,
+'status-error': $color-status-error,
+'color-0': $color-text-0,
+'color-1': $color-text-1,
+'color-2': $color-text-2,
+'color-3': $color-text-3,
+'white': $color-white,
+'black': $color-black,
+),
+$sis-colors);
+
+$sis-font-weights: (
+);
+$sis-font-weights: map-merge(('light': $font-weight-light,
+'normal': $font-weight-normal,
+'medium': $font-weight-medium,
+'semibold': $font-weight-semibold,
+'bold': $font-weight-bold,
+),
+$sis-font-weights);
+
+$border-color: #e5e5e5;
+$basic-color: rgb(var(--rgb-basic-color));
+$basic-color-4: rgb(var(--rgb-basic-color) / var(--bg-opacity-4));
+$basic-color-25: rgb(var(--rgb-basic-color) / var(--bg-opacity-25));
+$basic-color-50: rgb(var(--rgb-basic-color) / var(--bg-opacity-50));
+$basic-color-75: rgb(var(--rgb-basic-color) / var(--bg-opacity-75));
+
+$border-radius-sm: 0.2rem;
+$border-radius: 0.3rem;
+$border-radius-lg: 0.625rem;
+
+//Layout
+$sidebar-toggle-border-color: $color-primary-4;
+$sidebar-toggle-bg-color: $color-white;
+$sidebar-toggle-icon-color: #262626;
+$sidebar-bg-active: $basic-color-25;
+
+$input-border-radius-custom: 0.625rem;
+
+$form-width-default: 31.125rem;
+$input-border-color: $border-color;
+
+$color-tab-header-bg: #F5F5F5;
+$color-tab-header-bg-active: $basic-color-4;
+
+$color-process-bg: #eff8ff;
+$color-process-border: #005cad6e;

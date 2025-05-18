@@ -1,0 +1,27 @@
+.phoneInput {
+  input {
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+
+    &::placeholder {
+      font-weight: 400;
+      color: #777777;
+    }
+  }
+}
+
+.phoneInputLight {
+  input {
+    outline: none;
+    background-color: transparent;
+    color: #31373f;
+    font-size: 14px;
+
+    &::placeholder {
+      font-weight: 400;
+      color: #777777;
+    }
+  }
+}

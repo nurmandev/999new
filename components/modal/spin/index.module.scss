@@ -1,0 +1,80 @@
+.spin {
+
+    .spinImg {
+        position: relative;
+        z-index: 2;
+        display: block;
+        transition: transform cubic-bezier(.42,0,.03,1) .7s;
+    }
+
+    &:hover {
+        .spinImg {
+            transform: scale3d(1.1,1.1,1);
+        }
+    }
+}
+
+.spin_button {
+    @keyframes normalStatus {
+        0%, 100% {
+            transform: rotate(5deg);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+        }
+        50% {
+            transform: none;
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+        }
+    }
+    @keyframes bounce {
+        0%, 100% {
+            // transform: scale(1.1);
+            transform: none;
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+        }
+        50% {
+            // transform: none;
+            transform: scale(1.1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+        }
+    }
+    animation: normalStatus 1s infinite;
+    &:hover {
+        animation: bounce 1s infinite;
+    }
+}
+
+.lucky {
+    background-image: url('/img/spin/lucky-bg.png');
+}
+
+.super {
+    background-image: url('/img/spin/super-bg.png');
+}
+
+.mega {
+    background-image: url('/img/spin/mega-bg.png');
+}
+
+.lucky-ring {
+    background-image: url('/img/spin/lucky-ring.png');
+    background-size: contain;
+}
+
+.super-ring {
+    background-image: url('/img/spin/super-ring.png');
+    background-size: contain;
+}
+
+.mega-ring {
+    background-image: url('/img/spin/mega-ring.png');
+    background-size: contain;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.ring-rotation {
+    animation: spin 20s linear infinite;
+}

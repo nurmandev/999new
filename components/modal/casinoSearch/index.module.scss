@@ -1,0 +1,15 @@
+.search_history_box {
+  @apply px-[15px] w-fit py-[5px] z-[6] rounded-[5px] cursor-pointer relative overflow-hidden flex justify-between gap-[10px];
+  .close {
+    position: relative;
+    padding: 5px;
+    display: none;
+    z-index: 110;
+  }
+
+  &:hover {
+    .close {
+      display: block;
+    }
+  }
+}

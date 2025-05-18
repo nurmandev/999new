@@ -1,0 +1,15 @@
+@keyframes slide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.slideProgress {
+  @apply bg-color-primary;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 2s;
+}

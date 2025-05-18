@@ -1,0 +1,76 @@
+
+.form-check-input {
+  font-size: 1.25rem;
+  margin-top: 0;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:disabled {
+    border-color: $color-text-3;
+  }
+
+  &:checked {
+    background-color: var(--basic-color);
+    border-color: var(--basic-color);
+  }
+
+  &:disabled:checked {
+    background-color: $color-text-3;
+    border-color: $color-text-3;
+  }
+
+  &[type=radio] {
+    &:checked {
+      border: 0.2em solid $color-white;
+      box-shadow: 0 0 0 1px var(--basic-color);
+      background-image: unset;
+      background-color: var(--basic-color);
+    }
+
+    &:disabled:checked {
+      border: 0.2em solid $color-white;
+      box-shadow: 0 0 0 1px $color-text-3;
+      background-image: unset;
+      background-color: $color-text-3;
+    }
+  }
+}
+
+.form-switch {
+  padding-left: 0;
+
+  .form-check-input {
+    font-size: 1.5rem;
+    width: 1.67em;
+    margin-left: 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+    background-color: $color-text-2;
+    border: 1px solid $color-text-2;
+
+    &:focus {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+    }
+
+    &:checked {
+      background-color: var(--basic-color);
+      border: 1px solid var(--basic-color);
+    }
+
+    &:disabled {
+      border-color: $color-text-3;
+      background-color: $color-text-3;
+    }
+  }
+}
+// pagination active
+
+.page-item {
+  &.active {
+    .page-link {
+      background-color: var(--basic-color);
+      color: var(--text-in-basic-color);
+    }
+  }
+}

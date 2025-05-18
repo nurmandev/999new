@@ -1,0 +1,96 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'react-tooltip/dist/react-tooltip.css';
+@import '~flatpickr/dist/flatpickr.css';
+// @import "~react-paginate/theme/basic/react-paginate.css";
+
+@import 'root';
+@import 'custom-variables';
+@import '~/styles/fonts/_fonts.scss';
+@import '~/styles/common/_reboot.scss';
+
+@import '~/styles/libs/tailwind.css';
+@import '~/styles/base/mixins';
+
+ul.react-paginate {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+
+  li.page-item {
+    a.page-link {
+      border: none;
+      min-width: 32px;
+      min-height: 32px;
+      padding: 0;
+      border-radius: 30px;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &.active {
+      background-color: var(--basic-color);
+      color: var(--text-in-basic-color);
+      border: 1px solid var(--basic-color);
+    }
+  }
+}
+
+.scrollbar {
+  /* width */
+  &::-webkit-scrollbar { 
+    height: 5px; 
+    width: 5px;
+    display: block;
+  } 
+
+  /* Track */
+  &::-webkit-scrollbar-track { 
+    background: transparent; 
+    border-radius: 5px; 
+  } 
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb { 
+    background: #1E293B; 
+    border-radius: 5px; 
+    cursor: pointer;
+  } 
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover { 
+    background: #1E293B; 
+  }
+
+}
+
+.swiper-container {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100vh;
+  // CSS Grid/Flexbox bug size workaround
+  // @see https://github.com/kenwheeler/slick/issues/982
+  // @see https://github.com/nolimits4web/swiper/issues/3599
+  min-height: 0;
+  min-width: 0;
+}
+
+.editBox:empty:focus::before,
+.editBox:empty::before{
+  content: 'Enter Message here...';
+  color: #98A7B5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+body {
+  min-height: -webkit-fill-available;
+}
+
+.modal-header{
+  @apply  rounded-t-large flex flex-row items-center justify-start dark:bg-color-modal-bg-primary bg-color-light-bg-primary px-[20px] py-[20px] gap-[20px] border-b border-solid border-b-color-card-border-primary shadow-[inset_0_1px_0_0_#ffffff0d]
+}

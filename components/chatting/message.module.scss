@@ -1,0 +1,18 @@
+.message {
+    
+    .tip {
+        display: none;
+    }
+    .reply {
+        display: none;
+    }
+
+    &:hover {
+        .tip {
+            display: block;
+        }
+        .reply {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+const CAPTCHA_FIELD = 'g-recaptcha-response';
+const PASSWORD_FIELD = 'password';
+const EMAIL_FIELD = 'email';
+const OLD_PASSWORD_FIELD = 'old_password';
+const NEW_PASSWORD_FIELD = 'new_password';
+const CONFIRM_NEW_PASSWORD_FIELD = 'new_password_confirmation';
+
+const COUNTDOWN_SIZE = 30;
+const COUNTDOWN_STROKE_WIDTH = 5;
+const COUNTDOWN_DURATION = 30;
+const COUNTDOWN_DELAY = 1;
+
+const USER_ROLE_DEFAULT = {
+  SUPER_ADMIN: 'SUPER_ADMIN',
+};
+
+const ADMIN_ROLE = {
+  ADMIN: 'admin',
+  EDITOR: 'editor',
+};
+export {
+  ADMIN_ROLE,
+  CAPTCHA_FIELD,
+  CONFIRM_NEW_PASSWORD_FIELD,
+  COUNTDOWN_DELAY,
+  COUNTDOWN_DURATION,
+  COUNTDOWN_SIZE,
+  COUNTDOWN_STROKE_WIDTH,
+  EMAIL_FIELD,
+  NEW_PASSWORD_FIELD,
+  OLD_PASSWORD_FIELD,
+  PASSWORD_FIELD,
+  USER_ROLE_DEFAULT,
+};

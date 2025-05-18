@@ -1,0 +1,16 @@
+/**
+ * Convert from px to rem with px fallback
+ *
+ * @param $size - the value in pixel you want to convert
+ *
+ * e.g. p {@include rem(12px);}
+ *
+ */
+$base-size: 16px;
+
+// Function for converting a px based font-size to rem.
+@function rem($size) {
+  $rem-size: $size / $base-size;
+  //Default font size on html element is 100%, equivalent to 16px;
+  @return #{$rem-size}rem;
+}

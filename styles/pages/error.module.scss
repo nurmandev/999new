@@ -1,0 +1,22 @@
+@import '~/styles/main/custom-variables';
+@import '~/styles/base/mixins';
+
+.numberTitle {
+  color: $color-text-2;
+  font-size: 120px;
+  font-weight: $font-weight-bold;
+  letter-spacing: 12px;
+}
+
+.errorPage {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  @include flexbox;
+  @include align-items(center);
+  @include justify-content(center);
+  @include flex-direction(column);
+}

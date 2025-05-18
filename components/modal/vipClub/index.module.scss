@@ -1,0 +1,46 @@
+.rank {
+  padding-left: 10px;
+  padding-right: 20px;
+  clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%);
+}
+
+.rank_text {
+  .bronze_text {
+    color: rgb(224, 154, 106);
+  }
+
+  .silver_text {
+    color: rgb(225, 225, 225);
+  }
+
+  .gold_text {
+    color: rgb(255, 195, 41);
+  }
+
+  .platinum_text {
+    color: rgb(157, 99, 246);
+  }
+  .diamond_text {
+    color: rgb(244, 80, 169);
+  }
+}
+
+.bronze {
+  background: #77493E;
+}
+
+.silver {
+  background: #98A7B5;
+}
+
+.gold {
+  background: #C6793A;
+}
+
+.platinum {
+  background: linear-gradient(90deg, #6A5982 0%, #00BAE6 100%);
+}
+
+.diamond {
+  background: linear-gradient(90deg, #04C 0%, #00B2FF 100%);
+}

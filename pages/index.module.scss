@@ -1,0 +1,14 @@
+.gameWrapper {
+	iframe {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+.goldText {
+	background: -webkit-linear-gradient(#FFD875 25%, #FFE8AC 25%, #856616 50%, #FFCD4E 75%, #FFF700, #FFF);
+	font-size: 24px;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

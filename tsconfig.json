@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./",
+    "paths": {
+      "react": ["./node_modules/@types/react"],
+      "@/components/*": ["components/*"],
+      "@/api/*": ["api/*"],
+      "@/assets/*": ["assets/*"],
+      "@/styles/*": ["styles/*"],
+      "@/base/*": ["*"],
+      "@/pages/*": ["pages/*"],
+      "@/constants/*": ["constants/*"],
+      "@/libs/*": ["libs/*"],
+      "@/config/*": ["config/*"],
+      "@/types/*": ["types/*"],
+      "@/redux/*": ["redux/*"],
+      "@/public/*": ["public/*"],
+      "@/test/*": ["test/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}

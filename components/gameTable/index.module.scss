@@ -1,0 +1,54 @@
+.textGradient {
+    background-image: linear-gradient(to right, #0DFDE4, #F39717, #F6841B, #FF053B);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boxTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .boxBorder {
+        position: relative;
+    
+        &::after{
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 22px;
+            background-color: #3E4349;
+            right: 8%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .boxBorderCenter {
+        position: relative;
+    
+        &::after{
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 22px;
+            background-color: #3E4349;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

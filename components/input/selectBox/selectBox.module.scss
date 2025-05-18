@@ -1,0 +1,12 @@
+@import '~/styles/main/custom-variables';
+
+.selectCustomControl {
+  white-space: pre;
+  .selectDropdown {
+    color: $color-text-2;
+
+    &.isFocused {
+      color: $color-text-1;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import '~/styles/main/custom-variables';
+
+.topContent {
+  position: sticky;
+  top: 0;
+
+  .title {
+    color: $color-text-0;
+  }
+}

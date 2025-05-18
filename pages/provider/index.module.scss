@@ -1,0 +1,20 @@
+.providerSortIntroduction {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.125rem;
+    background-image: linear-gradient(to top, #23262c, rgba(35, 38, 44, 0.1));
+  }
+}
+
+.providerIntroduction {
+	-webkit-transition: height 1s; 
+  -moz-transition: height 1s; 
+  -ms-transition: height 1s; 
+  -o-transition: height 1s; 
+  transition: height 1s;
+	height: 100%;
+}

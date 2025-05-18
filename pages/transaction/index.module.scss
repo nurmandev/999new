@@ -1,0 +1,54 @@
+@import '~/styles/main/custom-variables';
+
+.cardMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 20%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border: 3.83px solid transparent;
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #E5944B 32.45%, rgba(229, 148, 75, 0.51) 66.33%, rgba(255, 255, 255, 0.08) 100%);
+  border-image-repeat: round;
+  border-image-slice: 3;
+  // border-radius: 20px;
+  overflow: hidden;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.cardMain {
+  width: 65%;
+  height: fit-content;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border: 3.83px solid transparent;
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #E5944B 32.45%, rgba(229, 148, 75, 0.51) 66.33%, rgba(255, 255, 255, 0.08) 100%);
+  border-image-repeat: round;
+  border-image-slice: 10;
+  // border-radius: 20px;
+  overflow: hidden;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  .cardContent {
+    width: 100%;
+    height: 100%;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #E5944B 32.45%, rgba(229, 148, 75, 0.51) 66.33%, rgba(255, 255, 255, 0.08) 100%);
+    padding: 0;
+    backdrop-filter: blur(28.7038px);
+    // border-radius: 20px;
+
+    .contentHeader {
+      box-shadow: 0px 5.1029px 30.6174px 1.27573px #242629;
+      backdrop-filter: blur(28.7038px);
+      // border-radius: 20px;
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+    }
+  }
+  .dropdown {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 5.1029px 30.6174px 1.27573px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(28.7038px);
+    padding: 2px;
+  }
+}

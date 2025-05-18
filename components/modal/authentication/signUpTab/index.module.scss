@@ -1,0 +1,39 @@
+.phoneInput {
+    input {
+      outline: none;
+      background-color: #12181F;
+      color: #fff;
+      font-size: 14px;
+      padding: 15px;
+      padding-left: 0;
+  
+      &::placeholder {
+        font-weight: 400;
+        color: #98a7b5;
+      }
+    }
+
+}
+
+.phoneInput {
+    div:first-child {
+        padding: 15px;
+    }
+}
+
+  
+.phoneInputLight {
+    input {
+      outline: none;
+      background-color: #fff;
+      color: #31373f;
+      font-size: 14px;
+      padding: 15px;
+      padding-left: 0;
+
+      &::placeholder {
+        font-weight: 400;
+        color: #777777;
+      }
+    }
+}

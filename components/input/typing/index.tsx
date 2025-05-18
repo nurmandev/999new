@@ -1,0 +1,9 @@
+export { default as InputCodeAuthentication } from './InputCodeAuthentication';
+export { default as InputEmailAuthentication } from './InputEmailAuthentication';
+export { default as InputEmailPhone } from './InputEmailPhone';
+export { default as InputNumber } from './InputNumber';
+export { default as InputPassAuthentication } from './InputPassAuthentication';
+export { default as InputPassword } from './InputPassword';
+export { default as InputPhoneNumber } from './InputPhoneNumber';
+export { default as InputSearch } from './InputSearch';
+export { default as InputText } from './InputText';

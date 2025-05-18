@@ -1,0 +1,17 @@
+.progressBox {
+
+    .progressDetail {
+        @apply absolute left-0 right-0 -bottom-[100px] z-[3]  transition-all ease-in-out duration-300
+    }
+    .progressContent {
+        @apply absolute left-0 right-0 bottom-0 z-[3]  transition-all ease-in-out duration-300
+    }
+    &:hover {
+        .progressDetail {
+            bottom: 0px;
+        }
+        .progressContent {
+            bottom: -100px;
+        }
+    }
+}

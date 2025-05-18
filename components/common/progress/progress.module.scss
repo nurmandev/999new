@@ -1,0 +1,24 @@
+@import '~/styles/main/custom-variables';
+@import '~/styles/base/mixins/rem';
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color-white, 0.75);
+  z-index: $z-index-progress;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.progressContent {
+  min-width: 270px;
+  min-height: 76px;
+  box-shadow: 0 4px 16px rgba(0 0 0 / 16%);
+  background-color: $color-process-bg;
+  border: 1px solid $color-process-border;
+  color: $color-text-0;
+}

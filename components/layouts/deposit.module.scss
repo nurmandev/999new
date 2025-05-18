@@ -1,0 +1,46 @@
+@import '~/styles/main/custom-variables';
+
+
+@media screen and (min-width: 320px){
+  .cardMenu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .cardMain {
+    width: 100%;
+    height: fit-content;
+    .cardContent {
+      width: 100%;
+      height: 100%;
+      border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, #E5944B 32.45%, rgba(229, 148, 75, 0.51) 66.33%, rgba(255, 255, 255, 0.08) 100%);
+      padding: 0;
+      backdrop-filter: blur(28.7038px);
+      // border-radius: 20px;
+
+      .contentHeader {
+        box-shadow: 0px 5.1029px 30.6174px 1.27573px #242629;
+        backdrop-filter: blur(28.7038px);
+        // border-radius: 20px;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+      }
+    }
+    .dropdown {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+      box-shadow: 0px 5.1029px 30.6174px 1.27573px rgba(35, 16, 94, 0.25);
+      backdrop-filter: blur(28.7038px);
+      padding: 2px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px){
+  
+  
+}
+
+@media screen and (min-width: 1024px){
+
+}

@@ -1,0 +1,111 @@
+.gameWrapper {
+	iframe {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+.goldText {
+	color: #FFF;
+	text-shadow: 0px 0px 20px #836600, 0px 0px 20px #836600;
+	font-weight: 900;
+	font-family: fantasy;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.tooltip {
+	background: linear-gradient(0deg, #D9D9D9 0%, #737373 100%);
+}
+
+.gold_bar {
+	background: linear-gradient(180deg, #DEB72C 10.7%, #FCFF5E 100%);
+	box-shadow: 0px 5px 3px 0px rgba(255, 255, 255, 0.25) inset, 0px 5px 3px 0px rgba(255, 255, 255, 0.25) inset, 0px 5px 3px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.normal_bar {
+	background: linear-gradient(0deg, #040B25 0%, #11193E 100%);
+}
+
+.bar
+{
+	@media screen and (min-width: 768px){
+		clip-path: polygon(100% 100%,0% 100%,0% 16px,100% 0%);
+	}
+	@media screen and (max-width: 768px){
+		clip-path: polygon(100% 100%,0% 100%,0% 10px,100% 0%);
+	}
+	margin: 0 auto;
+}
+
+.flt_svg {
+	visibility: hidden; 
+	position: absolute;
+	width: 0px;
+	height: 0px;
+}
+
+.bar_parent
+{
+	filter: url('#flt_tag');
+}
+
+.bar_chart {
+	:nth-child(1) {
+		max-height: 30%;
+		min-height: 30%;
+		margin-top: auto;
+	}
+	:nth-child(2) {
+		max-height: 37%;
+		min-height: 37%;
+		margin-top: auto;
+	}
+	:nth-child(3) {
+		max-height: 44%;
+		min-height: 44%;
+		margin-top: auto;
+	}
+	:nth-child(4) {
+		max-height: 51%;
+		min-height: 51%;
+		margin-top: auto;
+	}
+	:nth-child(5) {
+		max-height: 58%;
+		min-height: 58%;
+		margin-top: auto;
+	}
+	:nth-child(6) {
+		max-height: 65%;
+		min-height: 65%;
+		margin-top: auto;
+	}
+	:nth-child(7) {
+		max-height: 72%;
+		min-height: 72%;
+		margin-top: auto;
+	}
+	:nth-child(8) {
+		max-height: 79%;
+		min-height: 79%;
+		margin-top: auto;
+	}
+	:nth-child(9) {
+		max-height: 86%;
+		min-height: 86%;
+		margin-top: auto;
+	}
+	:nth-child(10) {
+		max-height: 93%;
+		min-height: 93%;
+		margin-top: auto;
+	}
+	:nth-child(11) {
+		max-height: 100%;
+		min-height: 100%;
+		margin-top: auto;
+	}
+}

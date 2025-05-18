@@ -1,0 +1,110 @@
+@import '~/styles/main/custom-variables';
+@import '~/styles/base/mixins/rem';
+
+.tableWrapper {
+  overflow-y: auto;
+}
+
+.table {
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+  box-sizing: border-box;
+
+  tr {
+    &:nth-last-child(2n) {
+      background-color: #FFFFFF08;
+    }
+    &:nth-last-child(2) {
+      td {
+        border: none !important;
+      }
+    }
+
+    th,
+    td {
+      vertical-align: middle;
+      word-break: break-word;
+
+      &:first-child { 
+        padding-left: 1.625rem;
+        @media only screen and (max-width: 600px) {
+          padding-left: 10px;
+          padding-right: 0px;
+        }
+      }
+
+      &:last-child {
+        padding-right: 1.625rem;
+        @media only screen and (max-width: 600px) {
+          padding-left: 0px;
+          padding-right: 10px;
+        }
+      }
+    }
+
+    th {
+      height: 40px;
+      padding: 9px 10px;
+      position: sticky;
+      top: 0;
+      // z-index: $z-index-header-table;
+      // box-shadow: 0 -5px 0 0 $color-white;
+
+      // &:first-child {
+      //   border-top-left-radius: $border-radius-lg;
+      //   box-shadow: -5px -5px 5px 0 $color-white;
+      // }
+
+      // &:last-child {
+      //   border-top-right-radius: $border-radius-lg;
+      //   box-shadow: 5px -5px 5px 0 $color-white;
+      // }
+
+      input[type='checkbox'] {
+        background-color: var(--basic-color);
+        border-color: $color-white;
+
+        &:active,
+        &:indeterminate {
+          background-color: var(--basic-color);
+          border-color: $color-white;
+        }
+      }
+
+      &.danger {
+        background-color: $color-status-error;
+        color: $color-white;
+      }
+    }
+
+    td {
+      padding: 10px;
+      font-weight: $font-weight-normal;
+      color: $color-white;
+      border-bottom: 1px solid rgba(120,120,120,0.3);
+    }
+  }
+}
+
+.tableLight {
+  tr {
+    &:nth-child(2n) {
+      background-color: white;
+    }
+  }
+}
+
+.loadingTable {
+  z-index: $z-index-loading;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba($color-white, 0.5);
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+}
+
+.spinner {
+  border-color: var(--basic-color);
+  border-right-color: transparent;
+}

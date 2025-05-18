@@ -1,0 +1,15 @@
+.messageBox {
+  .messageBtn {
+    @apply max-w-0 min-w-0 p-0 ml-0 opacity-0 transition-all ease-in-out duration-300;
+  }
+
+  &:focus-within {
+    .messageBtn {
+      display: flex;
+      min-width: 45px;
+      max-width: 45px;
+      margin-left: 10px;
+      opacity: 100;
+    }
+  }
+}

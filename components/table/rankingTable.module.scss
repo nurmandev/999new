@@ -1,0 +1,66 @@
+@import '~/styles/main/custom-variables';
+@import '~/styles/base/mixins/rem';
+
+.tableWrapper {
+  overflow-y: auto;
+}
+
+.table {
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+  box-sizing: border-box;
+
+  tr {
+    th,
+    td {
+      vertical-align: middle;
+      word-break: break-word;
+    }
+
+    th {
+      height: 40px;
+      // position: sticky;
+      top: 0;
+
+      @media screen and (min-width: 640px) {
+        height: 45px;
+      }
+
+      input[type='checkbox'] {
+        background-color: var(--basic-color);
+        border-color: $color-white;
+
+        &:active,
+        &:indeterminate {
+          background-color: var(--basic-color);
+          border-color: $color-white;
+        }
+      }
+
+      &.danger {
+        background-color: $color-status-error;
+        color: $color-white;
+      }
+    }
+
+    td {
+      font-weight: $font-weight-normal;
+      color: $color-white;
+    }
+  }
+}
+
+.loadingTable {
+  z-index: $z-index-loading;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba($color-white, 0.5);
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+}
+
+.spinner {
+  border-color: var(--basic-color);
+  border-right-color: transparent;
+}

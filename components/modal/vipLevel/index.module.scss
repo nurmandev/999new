@@ -1,0 +1,37 @@
+.rank{
+    width: 28px;
+    height: 16px;
+    position: relative;
+    border: none;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 0.5rem solid transparent;
+        border-right: 0.25rem solid #1E2024;
+        right: 0;
+        top: 0;
+    }
+}
+
+.bronze {
+    background: rgb(224, 154, 106);
+}
+
+.silver {
+    background: rgb(225, 225, 225);
+}
+
+.gold {
+    background: rgb(255, 195, 41);
+}
+
+.platinum {
+    background: rgb(157, 99, 246);
+}
+
+.diamond {
+    background: rgb(244, 80, 169);
+}

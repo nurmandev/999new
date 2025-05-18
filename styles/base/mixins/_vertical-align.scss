@@ -1,0 +1,11 @@
+// ----------------------------------------------------------------------
+// Vertical align block
+// ----------------------------------------------------------------------
+// example: @include vertical-align();
+
+@mixin vertical-align {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+}
